@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.2"
     defaultConfig {
         applicationId "com.beamofsoul.coolweather"
-        minSdkVersion 15
+        minSdkVersion 15 // default 15, change to 24 required by calling getContext() in Fragment
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
